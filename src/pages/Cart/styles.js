@@ -94,3 +94,16 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+export const EmptyContainer = styled.div`
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    margin-top: 5px;
+  }
+`;

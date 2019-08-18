@@ -39,7 +39,7 @@ function* addToCart({ id }) {
     yield put(addToCartSuccess(data));
 
     history.push('/cart');
-    toast.success('Produto adicionado ao carrinho');
+    // toast.success('Produto adicionado ao carrinho');
   }
 }
 
